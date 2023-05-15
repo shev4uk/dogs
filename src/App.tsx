@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route index element={<Navigate to="seatch" replace  />} />
+        <Route index element={<Navigate to="search" replace  />} />
         <Route path="login" element={<Login />} />
         <Route element={<Layout />}>
           <Route path="search" element={<Search />} />
